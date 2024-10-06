@@ -1,0 +1,35 @@
+{
+  "name": "hospital-node-server",
+  "version": "1.0.0",
+  "description": "Node Sever for Patient Data Management Using Hyperledger fabric",
+  "author": "salaimuniselvam",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "enroll": "node enrollUsers/initServer.js"
+  },
+  "keywords": [
+    "Hyperledger Fabric",
+    "Patient Data Management"
+  ],
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "body-parser": "^1.20.2",
+    "chalk": "^2.4.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "fabric-ca-client": "^2.2.17",
+    "fabric-network": "^2.2.17",
+    "helmet": "^6.0.1",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^7.0.3",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.5-lts.1",
+    "node-fetch": "^3.3.1",
+    "open": "^6.4.0",
+    "swagger-ui-express": "^4.6.2",
+    "yamljs": "^0.3.0"
+  }
+}

@@ -1,0 +1,17 @@
+/channel-artifacts/*.tx
+/channel-artifacts/*.block
+/ledgers
+/ledgers-backup
+/channel-artifacts/*.json
+/hospital3-artifacts/crypto-config/*
+organizations/fabric-ca/ordererOrg/*
+!organizations/fabric-ca/ordererOrg/fabric-ca-server-config.yaml
+organizations/fabric-ca/hospital1/*
+!organizations/fabric-ca/hospital1/fabric-ca-server-config.yaml
+organizations/fabric-ca/hospital2/*
+!organizations/fabric-ca/hospital2/fabric-ca-server-config.yaml
+organizations/ordererOrganizations/*
+organizations/peerOrganizations/*
+system-genesis-block/*
+fabcar.tar.gz
+log.txt
